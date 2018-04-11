@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffc26f;
+}
+
+button {
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+  background-color: transparent;
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: .75rem 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
+button:hover {
+  opacity: .5;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#submit {
+  margin-right: .5rem;
+}
+
+#next {
+  margin-left: .5rem;
+}
+
+.headline {
+  margin: 8rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
